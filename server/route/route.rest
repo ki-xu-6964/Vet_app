@@ -1,0 +1,47 @@
+GET http://localhost:3000/
+###
+GET http://localhost:3000/test/home/
+
+
+###
+
+GET http://localhost:3000/test/64818e45d91be155f1e31ce0
+
+
+###
+
+PATCH  http://localhost:3000/test/648048cf72d617e6622de5c2
+Content-Type: application/json
+
+{
+    
+    "breed": "monster with stinky bref",
+    "name": "Gechay"
+}
+
+###
+
+POST http://localhost:3000/test/
+Content-Type: application/json
+
+{
+    "name": "test",
+    "age": "1",
+    "breed": "cross"
+}
+
+###
+
+DELETE http://localhost:3000/test/6492e21f1c9e273686e37e20
+
+
+###
+
+POST http://localhost:3000/products/new
+Content-Type: application/json
+
+{
+    "name": "pickles",
+    "price": "1"
+    
+}

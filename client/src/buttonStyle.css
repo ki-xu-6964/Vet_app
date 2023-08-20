@@ -1,0 +1,131 @@
+
+
+.top-right {
+  position: fixed;
+  top: 0;
+  right: 0;
+  
+
+}
+
+
+.btn-blue {
+  position: relative;
+  left: 0%;
+  right: 0.43%;
+  top: 0%;
+  bottom: 0.55%;
+  width: 113px;
+  height: 42px;
+  background: #2068A8;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.06);
+}
+
+
+  /* Rectangle 1 */
+
+.checkout-btn{
+  position: relative;
+  width: 197px;
+  height: 65px;
+  left: 1000px;
+  top: 0px;
+  bottom: 0.55%;
+  background: #c9c9b4;
+  border: 2px #c7c7c1;
+  color: white
+}
+
+.add-cart-btn{
+  position: relative;
+  width: 100px;
+  height: 20px;
+  left: 140px;
+  top: 0px;
+  bottom: 0.55%;
+  background: #c9c9b4;
+  border: 2px #c7c7c1;
+  color: white;
+  font-size: 10px
+}
+
+
+.modal-checkout-btn{
+  position: relative;
+  width: 197px;
+  height: 65px;
+  
+  background: #c9c9b4;
+  border: 2px #c7c7c1;
+  color: white
+}
+
+
+.delete-btn{
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  left: 160px;
+
+  background: #5c63ed;
+  border: 2px #c7c7c1;
+  color: rgb(240, 223, 238);
+  font-size: 12px;
+  
+  }
+    
+
+  .save-btn{
+    position: relative;
+    width: 100px;
+    height: 20px;
+    left: 10px;
+    top: 0px;
+    margin-bottom: 15px;
+    background: #5c63ed;
+    border: 2px #c7c7c1;
+    color: rgb(240, 223, 238);
+    font-size: 12px;
+    
+    }
+
+    .cancel-btn{
+      position: relative;
+      width: 100px;
+      height: 20px;
+      right: 20px;
+      left: 50px;
+      top: 0px;
+      margin-bottom: 15px;
+      background: #5c63ed;
+      border: 2px #c7c7c1;
+      color: rgb(240, 223, 238);
+      font-size: 12px;
+      
+      }
+
+    .edit-btn{
+      position: absolute;
+      width: 100px;
+      height: 20px;
+      left: 30px;
+      text-align: center;
+      margin-bottom: 15px;
+      background: #5c63ed;
+      border: 2px #c7c7c1;
+      color: rgb(240, 223, 238);
+      font-size: 12px;
+      
+      }
+
+
+      .container_button{
+        margin-bottom: 50px;
+        margin-left: 20px;
+
+      }
+
+      .save-msg{
+      position: relative;
+      text-align: center;
+      }

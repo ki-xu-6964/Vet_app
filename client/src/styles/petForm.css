@@ -1,0 +1,241 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+:root {
+  --primary-bg-color: #f7b1ab;
+  --secondary-bg-color: #93bddf;
+  --font-color: rgba(0, 0, 0, 0.8);
+  --font-family: "Montserrat", sans-serif;
+  --form-border-color: rgba(0, 0, 0, 0.1);
+}
+
+
+#msform head1 {
+  
+display: inline-block;
+color: #7b70d8;
+font-family: arial, sans-serif;
+font-size: 26px;
+font-weight: bold;
+margin-top: 10px;
+margin-bottom: 30px;
+text-align: right;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+.signup-container {
+  display: grid;
+  grid-template-areas: "left right";
+  width: 650px;
+  
+}
+
+.left-container {
+  background: var(--secondary-bg-color);
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  width: 300px;
+  height: 450px;
+  margin-left: 30px;
+  margin-top: 10px;
+  border-width: 4px;
+  border-color: #10469e;
+  border-style: dashed;
+  
+}
+
+
+
+
+.pettie {
+  margin-top: 50px;
+}
+
+.added-margin {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.h1 {
+  display: inline-block;
+  padding: 5px 0 0 10px;
+  font-size: 10px;
+  color: #4e45a0;
+}
+
+
+
+
+
+.left-container img {
+  filter: sepia(100%);
+  width: 50px;
+}
+
+.right-container {
+  background: lighten(var(--primary-bg-color), 5%);
+  display: grid;
+  height: 450px;
+  width: 300px;
+ margin-left: 15px;
+  margin-top: 10px;
+}
+
+
+
+.right-container .set {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.right-container input {
+  border: 1px solid var(--form-border-color);
+  border-radius: 4px;
+  height: 38px;
+  line-height: 38px;
+  padding-left: 5px;
+}
+
+
+
+
+
+
+.pets-breed,
+.pets-birthday,
+.pets-gender,
+.pets-spayed-neutered,
+.pets-weight {
+  & label {
+    display: block;
+    margin-bottom: 5px;
+    color: #f7b1ab;
+  }
+}
+
+.input[type=text] {
+
+  padding:10px;
+  margin:10px 0;
+  font-size: 10px;
+}
+
+.field {
+  width: 100%;
+  height: 56px;
+  border-radius: 4px;
+  position: relative;
+  background-color: rgba(255,255,255,0.3);
+  transition: 0.3s all;
+
+}
+
+.input-text {
+  width: 85%;
+  padding-right: 15px;
+  padding-left: 20px;
+  border-radius: 4px;
+  font-size: 2rem;
+  color:#f7b1ab;
+  display: block;
+  margin-bottom: 5px;
+
+}
+
+#msform {
+  width: 400px;
+  height: 700px;                                                                                 
+  
+  position: relative;
+
+  
+}
+#msform text {
+  margin-bottom: 20px;
+}
+
+#msform input, #msform textarea {
+
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: montserrat;
+  color: #2C3E50;
+  font-size: 13px;
+}
+
+#msform fieldset {
+  background: white;
+  border: 0 none;
+  border-radius: 3px;
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+  padding: 20px 30px;
+  box-sizing: border-box;
+  width: 350px;
+  height: 450px;
+
+  
+  
+  /*stacking fieldsets above each other*/
+  position: relative;
+}
+
+
+ #msform form-group {
+  font-family: arial, sans-serif;
+  text-align: start;
+  margin-bottom: 20px;
+  display: inline-block;
+  color: #7b70d8;
+  font-weight: bold;
+
+}
+
+.submit-button {
+  /* Button/Primary */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 60px;
+gap: 10px;
+
+
+background: #002554;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 40px;
+
+
+/* Button */
+
+width: 150px;
+height: 21px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+margin-top: 10px;
+margin-left: auto;
+margin-right: auto;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height, or 131% */
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
