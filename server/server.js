@@ -2,7 +2,9 @@ const mongoose=require('mongoose')
 
 const express = require('express')
 const router = express.Router()
-mongoose.connect("mongodb://localhost/3000")
+
+//var password = encodeURIComponent("Es#lq2jPko2JDgBn")
+mongoose.connect("mongodb+srv://test_user:test123@cluster0.8s3rokp.mongodb.net/")
 const Pets= require('./model/pets')
 const bodyParser = require("body-parser")
 //const cors = require("cors")
