@@ -31,15 +31,17 @@ app.use('/test', router)
 
 //app.use(express.static('uploads'))
 
+app.get('/', (req, res) => {
+  res.send('Hey this is my API running 🥳')
+})
+
 router.get('/home', async (req, res) => {
   const pets= await Pets.find()
   res.send(pets)
 
 })
 
-app.get('/', (req, res) => {
-  res.send('Hey this is my API running 🥳')
-})
+
 
 router.get('/:id', async (req, res) => {
     try{
