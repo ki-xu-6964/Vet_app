@@ -8,7 +8,7 @@ mongoose.connect("mongodb+srv://test_user:test123@cluster0.8s3rokp.mongodb.net/"
 const Pets= require('./model/pets')
 const bodyParser = require("body-parser")
 //const cors = require("cors")
-const cors = require('cors')
+
 
 
 
