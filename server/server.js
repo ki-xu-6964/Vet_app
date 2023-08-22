@@ -36,6 +36,7 @@ app.get('/', (req, res) => {
   res.send('Hey this is my API running 🥳')
 })
 
+/*
 router.get('/home', async (req, res) => {
   const pets= await Pets.find()
   res.send(pets)
