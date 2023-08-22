@@ -27,7 +27,7 @@ router.use(bodyParser.json())
 
 //app.use(cors());
 app.use(express.json())
-app.use('/test', router)
+//app.use('/test', router)
 
 //app.use(express.static('uploads'))
 
