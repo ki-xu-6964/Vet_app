@@ -37,6 +37,10 @@ router.get('/home', async (req, res) => {
 
 })
 
+app.get('/', (req, res) => {
+  res.send('Hey this is my API running 🥳')
+})
+
 router.get('/:id', async (req, res) => {
     try{
     const pets= await Pets.findOne({_id : req.params.id})
