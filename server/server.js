@@ -108,6 +108,6 @@ router.patch('/:id', async (req, res) => {
 
 
 console.log('ehlllooo')
-
+module.exports = app
 
 //https://rahmanfadhil.com/express-rest-api/
