@@ -22,13 +22,13 @@ app.use(cors({
 */
 const port = 3000
 app.listen(port)
-router.use(bodyParser.urlencoded({ extended: false}))
-router.use(bodyParser.json())
+//router.use(bodyParser.urlencoded({ extended: false}))
+//router.use(bodyParser.json())
 
 //app.use(cors());
 app.use(express.json())
 
-app.use('/test', router)
+//app.use('/test', router)
 
 //app.use(express.static('uploads'))
 
