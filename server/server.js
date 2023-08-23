@@ -13,14 +13,14 @@ const router = express.Router()
 
 
 const app = express()
-/*
+
 
 app.use(cors({
-  origin: ['https://vet-app-coral.vercel.app'],
+  origin: ['https://vet-app-5wfy.vercel.app'],
   methods: ["POST", "PATCH", "GET", "DELETE"],
   credentials: true
 }))
-*/
+
 const port = 3000
 app.listen(port)
 //router.use(bodyParser.urlencoded({ extended: false}))
