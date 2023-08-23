@@ -14,6 +14,7 @@ const router = express.Router()
 
 const app = express()
 /*
+
 app.use(cors({
   origin: ['https://vet-app-coral.vercel.app'],
   methods: ["POST", "PATCH", "GET", "DELETE"],
@@ -28,7 +29,7 @@ app.listen(port)
 //app.use(cors());
 //app.use(express.json())
 
-//app.use('/test', router)
+app.use('/test', router)
 
 //app.use(express.static('uploads'))
 
