@@ -6,8 +6,8 @@ const express = require('express')
 //var password = encodeURIComponent("Es#lq2jPko2JDgBn")
 mongoose.connect("mongodb+srv://test_user:test123@cluster0.8s3rokp.mongodb.net/")
 const Pets= require('./model/pets')
-const bodyParser = require("body-parser")
-const cors = require("cors")
+//const bodyParser = require("body-parser")
+//const cors = require("cors")
 
 
 
