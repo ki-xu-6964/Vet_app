@@ -20,7 +20,7 @@ app.use(cors({
   credentials: true
 }))
 */
-const port = 4000
+const port = 3000
 app.listen(port)
 //router.use(bodyParser.urlencoded({ extended: false}))
 //router.use(bodyParser.json())
@@ -110,5 +110,5 @@ router.patch('/:id', async (req, res) => {
 
 console.log('ehlllooo')
 module.exports = app
-
+*/
 //https://rahmanfadhil.com/express-rest-api/
