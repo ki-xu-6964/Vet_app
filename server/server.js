@@ -37,7 +37,7 @@ app.get('/', (req, res) => {
   res.send('Hey this is my API running 🥳')
 })
 
-/*
+
 router.get('/home', async (req, res) => {
   const pets= await Pets.find()
   res.send(pets)
@@ -111,5 +111,5 @@ router.patch('/:id', async (req, res) => {
 
 console.log('ehlllooo')
 module.exports = app
-*/
+
 //https://rahmanfadhil.com/express-rest-api/
