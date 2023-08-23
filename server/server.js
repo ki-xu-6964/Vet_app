@@ -1,7 +1,7 @@
 //const mongoose=require('mongoose')
 
 const express = require('express')
-//const router = express.Router()
+const router = express.Router()
 
 //var password = encodeURIComponent("Es#lq2jPko2JDgBn")
 //mongoose.connect("mongodb+srv://test_user:test123@cluster0.8s3rokp.mongodb.net/")
