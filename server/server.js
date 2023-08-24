@@ -3,8 +3,8 @@
 const express = require('express')
 const router = express.Router()
 
-//var password = encodeURIComponent("Es#lq2jPko2JDgBn")
-//mongoose.connect("mongodb+srv://test_user:test123@cluster0.8s3rokp.mongodb.net/")
+var password= process.env.password
+//mongoose.connect("mongodb+srv://test_user:password@cluster0.8s3rokp.mongodb.net/")
 //const Pets= require('./model/pets')
 //const bodyParser = require("body-parser")
 //const cors = require("cors")
@@ -112,4 +112,3 @@ router.patch('/:id', async (req, res) => {
 console.log('ehlllooo')
 module.exports = app
 
-//https://rahmanfadhil.com/express-rest-api/
