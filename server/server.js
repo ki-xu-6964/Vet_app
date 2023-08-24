@@ -1,10 +1,10 @@
-//const mongoose=require('mongoose')
+const mongoose=require('mongoose')
 
 const express = require('express')
 const router = express.Router()
 
 var password= process.env.password
-//mongoose.connect("mongodb+srv://test_user:password@cluster0.8s3rokp.mongodb.net/")
+mongoose.connect("mongodb+srv://test_user:password@cluster0.8s3rokp.mongodb.net/")
 //const Pets= require('./model/pets')
 //const bodyParser = require("body-parser")
 //const cors = require("cors")
