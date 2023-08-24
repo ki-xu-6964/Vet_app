@@ -18,6 +18,10 @@
     "styled-components": "^6.0.0-rc.1",
     "web-vitals": "^2.1.4"
   },
+  "compilerOptions": {
+    "skipLibCheck": true
+   
+ },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
