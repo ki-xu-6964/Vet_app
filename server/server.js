@@ -1,13 +1,13 @@
-//const mongoose=require('mongoose')
+const mongoose=require('mongoose')
 
 const express = require('express')
 const router = express.Router()
 
 var password= process.env.password
-//mongoose.connect("mongodb+srv://test_user:password@cluster0.8s3rokp.mongodb.net/")
-//const Pets= require('./model/pets')
-//const bodyParser = require("body-parser")
-//const cors = require("cors")
+mongoose.connect("mongodb+srv://test_user:password@cluster0.8s3rokp.mongodb.net/")
+const Pets= require('./model/pets')
+const bodyParser = require("body-parser")
+const cors = require("cors")
 
 
 
@@ -23,11 +23,11 @@ app.use(cors({
 */
 const port = 3000
 app.listen(port)
-//router.use(bodyParser.urlencoded({ extended: false}))
-//router.use(bodyParser.json())
+router.use(bodyParser.urlencoded({ extended: false}))
+router.use(bodyParser.json())
 
-//app.use(cors());
-//app.use(express.json())
+app.use(cors());
+app.use(express.json())
 
 app.use('/test', router)
 
