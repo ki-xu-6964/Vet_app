@@ -24,7 +24,7 @@ app.use(cors({
 */
 
 const port = 3000
-app.listen(port)
+//app.listen(port)
 router.use(bodyParser.urlencoded({ extended: false}))
 router.use(bodyParser.json())
 
