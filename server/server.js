@@ -57,6 +57,9 @@ router.get('/:id', async (req, res) => {
     }
 })
 
+app.get('/test', (req, res) => {
+  res.json({ message: 'Test successful' });
+});
 
 router.post('/', async (req, res) => {
     const newPettie = new Pets({ 
