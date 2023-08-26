@@ -41,7 +41,7 @@ function GetPets(url){
 
   
 function postPets(data){
-    fetch('/test', {
+    fetch('https://vet-app-5wfy.vercel.app/test', {
     method: "POST",
     headers: {
         'Accept': 'application/json',
