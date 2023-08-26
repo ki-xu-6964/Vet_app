@@ -36,7 +36,7 @@ app.use('/test', router)
 //app.use(express.static('uploads'))
 
 app.get('/', (req, res) => {
-  res.send('Hey this is my API running 🥳')
+  res.send('Hey this is my API running 🥳  merugh')
 })
 
 
