@@ -28,7 +28,6 @@ app.listen(port)
 router.use(bodyParser.urlencoded({ extended: false}))
 router.use(bodyParser.json())
 
-app.use(cors());
 app.use(express.json())
 
 app.use('/test', router)
