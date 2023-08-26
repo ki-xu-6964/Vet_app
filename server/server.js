@@ -71,7 +71,7 @@ app.get('/test', (req, res) => {
   res.json({ message: 'Test successful' });
 });
 
-app.post('/', async (req, res) => {
+router.post('/', async (req, res) => {
     const newPettie = new Pets({ 
       name: req.body.name,
       age: req.body.age,
