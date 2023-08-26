@@ -14,13 +14,15 @@ const cors = require("cors")
 
 const app = express()
 
+app.use(cors());
 
+/*
 app.use(cors({
   origin: ['https://vet-app-4efh.vercel.app'],
   methods: ["POST", "PATCH", "GET", "DELETE"],
   credentials: true
 }))
-
+*/
 
 
 const port = 3000
