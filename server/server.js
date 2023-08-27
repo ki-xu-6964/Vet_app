@@ -31,7 +31,7 @@ router.use(bodyParser.json())
 
 app.use(express.json())
 
-app.use('/test', router)
+//app.use('/test', router)
 
 //app.use(express.static('uploads'))
 
@@ -64,6 +64,7 @@ app.post('/', async (req, res) => {
   }
 })
 
+/*
 router.get('/home', async (req, res) => {
  //const pets= await Pets.find()
  // res.send(pets)
@@ -84,7 +85,7 @@ router.get('/:id', async (req, res) => {
 
 
 
-/*
+
 router.post('/', async (req, res) => {
     const newPettie = new Pets({ 
       name: req.body.name,
@@ -101,7 +102,7 @@ router.post('/', async (req, res) => {
       res.status(400).json({ message: err.message })
     }
   })
-  */
+  
   
 
   router.delete('/:id', async (req, res) => {
@@ -133,7 +134,7 @@ router.patch('/:id', async (req, res) => {
       res.status(400).json({ message: error.message })
     }
 })
-
+*/
 
 
 
