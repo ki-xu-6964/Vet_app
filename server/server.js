@@ -51,6 +51,22 @@ app.use((req, res, next) => {
   next();
 });
 
+app.post('/', async (req, res) => {
+  const newPettie = new Pets({ 
+    name: req.body.name,
+    age: req.body.age,
+    breed: req.body.breed,
+    
+  })
+
+  try {
+  
+    const finalPettie = await newPettie.save()
+    res.status(201).json(finalPettie)
+  } catch (err) {
+    res.status(400).json({ message: err.message })
+  }
+})
 
 
 router.get('/:id', async (req, res) => {
