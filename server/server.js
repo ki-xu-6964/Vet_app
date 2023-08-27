@@ -43,6 +43,12 @@ app.get('/malone', (req, res) => {
   res.send('tehee  merugh')
 })
 
+app.get('/home', async (req, res) => {
+  const pets= await Pets.find()
+  res.send(pets)
+
+})
+
 app.use((req, res, next) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
   // You can also add other CORS headers here
