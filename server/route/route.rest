@@ -48,7 +48,7 @@ Content-Type: application/json
 
 ###
 
-POST https://vet-app-5wfy.vercel.app/
+POST https://vet-app-5wfy.vercel.app/test
 Content-Type: application/json
 
 {
@@ -56,6 +56,10 @@ Content-Type: application/json
     "price": "1"
     
 }
+
+###
+
+GET https://vet-app-5wfy.vercel.app/
 
 ###
 
