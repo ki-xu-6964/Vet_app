@@ -39,6 +39,10 @@ app.get('/', (req, res) => {
   res.send('Hey this is my API running 🥳  merugh')
 })
 
+app.get('/malone', (req, res) => {
+  res.send('tehee  merugh')
+})
+
 app.use((req, res, next) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
   // You can also add other CORS headers here
