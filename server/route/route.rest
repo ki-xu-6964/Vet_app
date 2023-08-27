@@ -63,4 +63,4 @@ GET https://vet-app-5wfy.vercel.app/
 
 ###
 
-GET https://vet-app-5wfy.vercel.app/test/home
+GET https://vet-app-5wfy.vercel.app/malone
