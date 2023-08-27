@@ -49,15 +49,6 @@ app.use((req, res, next) => {
 
 
 
-
-router.get('/home', async (req, res) => {
- //const pets= await Pets.find()
- // res.send(pets)
- res.send('Ello')
-})
-
-
-
 router.get('/:id', async (req, res) => {
     try{
     const pets= await Pets.findOne({_id : req.params.id})
