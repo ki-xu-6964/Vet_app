@@ -50,9 +50,9 @@ app.use((req, res, next) => {
 
 
 router.get('/home', async (req, res) => {
-  const pets= await Pets.find()
-  res.send(pets)
-
+ //const pets= await Pets.find()
+ // res.send(pets)
+ res.send('Ello')
 })
 
 
@@ -84,7 +84,7 @@ app.post('/', async (req, res) => {
   }
 })
 
-
+/*
 router.post('/', async (req, res) => {
     const newPettie = new Pets({ 
       name: req.body.name,
@@ -101,7 +101,7 @@ router.post('/', async (req, res) => {
       res.status(400).json({ message: err.message })
     }
   })
-  
+  */
   
 
   router.delete('/:id', async (req, res) => {
