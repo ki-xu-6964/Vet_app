@@ -31,7 +31,7 @@ router.use(bodyParser.json())
 
 app.use(express.json())
 
-//app.use('/test', router)
+app.use('/test', router)
 
 //app.use(express.static('uploads'))
 
