@@ -30,9 +30,9 @@ function deleteData(url, id) {
 
 
 
-function GetPets(url){
+function GetPets(){
     useEffect( () => {
-    fetch(url).then(
+    fetch("https://vet-app-5wfy.vercel.app/home").then(
       response => response.json()
     ).then(
       data => {setAnimalData(data) }

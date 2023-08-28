@@ -13,7 +13,7 @@ export default function Home() {
 
   
   useEffect( () => {
-    fetch('/test/home').then(
+    fetch('https://vet-app-5wfy.vercel.app/home').then(
       response => response.json()
     ).then(
       data => {setAnimalData(data) }
