@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 
-import cat from './products/cat.png'
+import cat from './Pet/cat.png'
 import './styles/petForm.css'
 import { usePets } from './petContext'
 

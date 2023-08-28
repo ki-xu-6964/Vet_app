@@ -3,7 +3,7 @@ import {PetCard} from './PetCard'
 import './styles/petCard.css'
 import {usePets} from './petContext'
 import { getOverlayDirection } from 'react-bootstrap/esm/helpers';
-import kitties from './products/cat.png'
+import kitties from './Pet/cat.png'
 
 
 export default function Home() {

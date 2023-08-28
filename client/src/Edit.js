@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import { Card } from 'react-bootstrap'
 import './styles/petCard.css'
-import doggo from './products/dog.png'
+import doggo from './Pet/dog.png'
 import { usePets } from './petContext'
 import { useParams, useNavigate} from 'react-router-dom'
 

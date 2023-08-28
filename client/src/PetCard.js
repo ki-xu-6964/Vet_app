@@ -3,7 +3,7 @@ import { Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './buttonStyle.css'
 import { usePets } from './petContext';
-import doggo from './products/dog.png'
+import doggo from './Pet/dog.png'
 
 
 
