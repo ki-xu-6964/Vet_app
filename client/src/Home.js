@@ -21,7 +21,7 @@ export default function Home() {
   })
 
 
-//GetPets('/test/home')
+
 
 
 return (

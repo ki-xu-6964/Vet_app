@@ -60,26 +60,3 @@ const handleClick=e=>{
   )
 }
 
-
-
-/*
-
-
-
-
-<Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={icon} />
-      <Card.Body>
-        <Card.Text>
-          This is {name}
-        </Card.Text>
-        <p>
-        Their age is {age}
-        </p>
-        <p>
-        Their breed is {breed}
-        </p>
-      </Card.Body>
-      </Card>
-
-*/
