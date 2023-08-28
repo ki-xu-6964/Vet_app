@@ -44,7 +44,7 @@ export default function Edit() {
   function saveFunction(){
     setMessage(true);
     setTimeout(()=> setMessage(false), 1000)
-
+    setTimeout(()=> navigate('/'), 2000)
   }
 
   const navigateHome = () =>{
