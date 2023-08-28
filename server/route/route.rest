@@ -59,7 +59,7 @@ Content-Type: application/json
 
 ###
 
-GET https://vet-app-5wfy.vercel.app/test
+GET https://vet-app-5wfy.vercel.app/home
 
 ###
 
