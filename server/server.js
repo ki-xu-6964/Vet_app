@@ -72,7 +72,7 @@ app.get('/home', async (req, res) => {
 
 })
 
-router.get('/:id', async (req, res) => {
+app.get('/:id', async (req, res) => {
     try{
     const pets= await Pets.findOne({_id : req.params.id})
     res.send(pets)
