@@ -22,4 +22,5 @@ The Form takes in data
 And this gets added to the database of pets
 
 
-![Screen Shot 2023-08-28 at 9 08 30 pm](https://github.com/ki-xu-6964/Vet_app/assets/119022603/2da932ff-09f0-4bbd-aeb7-f5a6c4e93e90)
+
+![Uploading Screen Shot 2023-08-28 at 9.10.48 pm.png…]()
