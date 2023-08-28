@@ -39,15 +39,7 @@ app.get('/', (req, res) => {
   res.send('Hey this is my API running 🥳  merugh')
 })
 
-app.get('/malone', (req, res) => {
-  res.send('tehee  merugh')
-})
 
-app.get('/home', async (req, res) => {
-  const pets= await Pets.find()
-  res.send(pets)
-
-})
 
 app.use((req, res, next) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
@@ -74,6 +66,11 @@ app.post('/', async (req, res) => {
   }
 })
 
+app.get('/home', async (req, res) => {
+  const pets= await Pets.find()
+  res.send(pets)
+
+})
 
 router.get('/:id', async (req, res) => {
     try{
