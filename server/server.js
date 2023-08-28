@@ -104,7 +104,7 @@ router.post('/', async (req, res) => {
   
   
 
-  router.delete('/:id', async (req, res) => {
+  app.delete('/:id', async (req, res) => {
     try{
     await Pets.deleteOne({_id: req.params.id})
     res.status(204)
@@ -118,7 +118,7 @@ router.post('/', async (req, res) => {
   })
 
   
-router.patch('/:id', async (req, res) => {
+app.patch('/:id', async (req, res) => {
     try{
       const filter = { _id : req.params.id}
       const update = {age: req.body.age, breed: req.body.breed, name: req.body.name}

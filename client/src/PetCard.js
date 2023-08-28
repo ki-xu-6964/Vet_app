@@ -18,7 +18,7 @@ const handleDelete=e=>{
 
   console.log(_id)
   console.log(name)
-  deleteData('/test/', _id)
+  deleteData(_id)
 }
 
 

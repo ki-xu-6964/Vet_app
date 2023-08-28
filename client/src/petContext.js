@@ -16,8 +16,8 @@ export const PetProvider = ({children}) => {
     const [animalData, setAnimalData] = useState([{}]) 
 
 
-function deleteData(url, id) {
-    fetch(url + id , {
+function deleteData(id) {
+    fetch("https://vet-app-5wfy.vercel.app/" + id , {
         method: "DELETE",
         headers: {
      "content-type": "application/json",
@@ -53,7 +53,7 @@ function postPets(data){
 }
 
 function patchPets(data, id){
-    fetch('/test/'+ id,{
+    fetch('https://vet-app-5wfy.vercel.app/'+ id,{
         method: "PATCH",
         headers: {
             'Accept': 'application/json',
