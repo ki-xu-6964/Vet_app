@@ -21,7 +21,7 @@ export default function Edit() {
    
     useEffect( () => {
  
-        fetch("https://vet-app-5wfy.vercel.app/home"+id).then(
+        fetch("https://vet-app-5wfy.vercel.app/"+id).then(
           response => response.json()
         ).then(
           res => {setField(res) }
