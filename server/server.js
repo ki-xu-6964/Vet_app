@@ -6,7 +6,7 @@ const express = require('express')
 const router = express.Router()
 const pwd = process.env.Password
 
-mongoose.connect(`mongodb+srv://zW0uVGMiCVqzH3Gi@admin:zW0uVGMiCVqzH3Gi@atlascluster.skjqczz.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster`)
+mongoose.connect(`mongodb+srv://test_user:beeboobop@atlascluster.skjqczz.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster`)
 
 const Pets= require('./model/pets')
 const bodyParser = require("body-parser")
